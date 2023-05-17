@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* Em HTML id e em CSS é usado # 
+   Em HTML classificar cor é usado a tag "class" e em CSS é representado com "."*/
+body{
+    background-color: #023047;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+h1{
+    color: #FB8500;
+   
+}
+h2{
+   text-align: justify;
+}
+
+p{
+    color: #ebebeb;
+}
+.basico{
+    color: #70e000;
+
+}
+.intermediario{
+    color: #ffdd00;
+}
+ 
+.avancado{
+    color: #D90429;
+}
+.center{
+    text-align: center;
+}

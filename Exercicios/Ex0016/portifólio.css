@@ -1,0 +1,68 @@
+@charset "UTF-8";
+*{
+    
+    text-align: justify;
+}
+body{
+    font: normal bolder 16px 'Roboto'; 
+background-color: #2B2D42;
+
+}
+main{
+    
+background-color:#E5E5E5;
+border-radius: 10px;
+box-shadow: 5px 5px 10px#FCA311;
+width: 600px;
+padding: 50px;
+margin: auto;
+}
+header{
+    width: 400px;
+    margin: 20px;
+    padding: 40px;
+    margin: auto;
+}
+h1{
+    font-family: 'Aboreto', cursive;
+    color: #14213D;
+    text-align: center;
+    
+}
+h2{
+    font-family: 'Aboreto', cursive;
+    color: #026773;
+}
+p{
+    font-family: 'Graduate', cursive;
+    color:#000000;
+    font-weight: normal;
+   
+}
+
+.focus-in-expand {
+	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.custom-loader {  
+    position: 50px; 
+    --r1: 154%;
+    --r2: 68.5%;
+    width:60px;
+    height:60px;
+    border-radius: 50%; 
+    background:
+      radial-gradient(var(--r1) var(--r2) at top   ,#000000 79.5%,#3CA6A6 80%),
+      radial-gradient(var(--r1) var(--r2) at bottom,#3CA6A6 79.5%,#0000 80%),
+      radial-gradient(var(--r1) var(--r2) at top   ,#0000 79.5%,#3CA6A6 80%),
+      #E4E4ED;
+    background-size: 50.5% 220%;
+    background-position: -100% 0%,0% 0%,100% 0%;
+    background-repeat:no-repeat;
+    animation:p9 2s infinite linear;
+  }
+  @keyframes p9 {
+      33%  {background-position:    0% 33% ,100% 33% ,200% 33% }
+      66%  {background-position: -100%  66%,0%   66% ,100% 66% }
+      100% {background-position:    0% 100%,100% 100%,200% 100%}
+  }
