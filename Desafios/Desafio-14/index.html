@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        :root{
+            --cor-primeria:#F1A13B;
+            --cor-secundaria:#001A72;
+        }
+        body{
+            background-color: var(--cor-primeria);
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        td, th{
+            padding: 15px;
+            border: 2px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th{
+            color: var(--cor-primeria);
+            background-color: var(--cor-secundaria);
+        }
+        h1{
+            font-family: monospace;
+            font-size: 1.9em;
+            color: var(--cor-primeria);
+            padding: 10px;
+            background-color: var(--cor-secundaria);
+            border-radius: 10px;
+            box-shadow: 1px 2px 7px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Terceira Tabela.</h1>
+    <table>
+        <tr>
+          <th rowspan="" scope="col">Área</th>
+          <th scope="colgroup" colspan="2">Disciplinas</th>
+          <th scope="colgroup" colspan="">Notas</th>
+          
+          <th>Nota 2</th>
+          <th>Média</th>
+        </tr>
+        <tr>
+            <th rowspan="5" scope="colgroup">Exatas</th>
+            <td colspan="2">Matemática</td>
+            
+           
+            
+        </tr>
+        <tr>
+            <td colspan="2">Biologia</td>
+        </tr>
+        <tr>
+            <td colspan="2">Física</td>
+        </tr>
+        <tr>
+            <td colspan="2" scope="colgroup">Química</td>
+        </tr>
+        <tr>
+            <th>Nota 1</th>
+            <td>0.0</td>
+            
+        </tr>
+        <tr>
+            <th  scope="row" colspan="5">Média Exatas</th>
+            <td>0.0</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+         <th rowspan="3">Humanas</th>
+        </tr>
+        <tr>
+            <td colspan="2">História</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+        </tr>
+        
+     </table>
+    
+</body>
+</html>
