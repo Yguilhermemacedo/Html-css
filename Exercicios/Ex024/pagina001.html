@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 13</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            font-family: monospace;
+            font-weight: bolder;
+            font-size: 1.9em;
+            background-color: #dc2f02;
+    
+        }
+        .cabecalho{
+            background-color: black;
+            color: #dc2f02;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 1px 3px 8px black;
+            transition: .8s;
+        }
+        table{
+           width: 900px;
+           border-collapse: collapse;
+           position: relative;
+           border-radius: 5px;
+           overflow-x: auto;
+        }
+      
+        td{
+            padding: 40px;
+            border: 1px solid black;
+            text-align: center;
+            
+            
+        }
+        td:hover{
+            background-color: black;
+            color: #dc2f02;
+            font-family: Arial, Helvetica, sans-serif;
+            box-shadow: 1px 3px 7px black;
+            transition: .8s;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        .num:hover{
+            transform: perspective(.8s);
+            background-color:  black;
+            color: #dc2f02;
+        }
+        .button2{
+            margin: 15px;
+            padding: 10px;
+            background-color: black;
+            color: #dc2f02;
+            font-size: 0.9em;
+            font-family: monospace;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 1px 2px 7px black;
+        }
+        .foto1{
+            height: 500px;
+            width: 500px;
+            margin: 30px;
+            background-color: black;
+            background-image: url(Screenshot_1.png);
+            background-position: center center;
+            background-size: cover;
+ }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="cabecalho">Tabela mesclada</h1>
+    </header>
+    <main>
+        <table>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td rowspan="2" class="num">3</td>
+              <td>4</td>
+        
+        
+        
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+        
+        
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;" class="num">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="num">10</td>
+                <td colspan="2" class="num">11</td>
+                <td>12</td>
+        
+        
+            </tr>
+            <tr>
+                <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </main>
+    <div>
+    <p>Gostou dessa tabela? Confira ja a <strong><a href="tabela2.html">segunda tabela!</a></strong></p>
+   
+       
+            <a href="tabela2.html"><input type="button" value="Segunda tabela >" class="button2"></a>
+            <h2>Veja o código:</h2>
+           
+        </div>
+    
+       <footer>
+
+       </footer>
+</body>
+</html>
