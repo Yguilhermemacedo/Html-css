@@ -2,73 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
 body{
-    background-color: #14213d;
+   background-color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 header{
-    font-family: 'Bruno Ace SC', cursive;
-    color: #14213d;
-   text-align: center;
-    background-color: #bfdbf7;
-    padding: 10px;
-    margin: 20px;
-    box-shadow: 7px 6px 15px #007991;
+    text-align: center;
+    background-color: blueviolet;
 }
+
 main{
-    font-family: 'Bruno Ace SC', cursive;
-    background-color: #bfdbf7;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    margin: 10px;
-    border-width: 0px;
-
-}
-main > p{
-    font-family: 'Kanit', sans-serif;
-    color: black;
-}
-p{
-    font-family: 'Kanit', sans-serif;
-    color: black;
-}
-article{
-    background-color: #bfdbf7;
-    padding: 10px;
-    margin: 10px;
-}
-a:hover{
-    color: #FF2E00;
-    text-decoration: #FF2E00;
-}
-.comosurgiu{
-    font-family: 'Bruno Ace SC', cursive;
-    color: #14213d;
-    font-weight: bolder;
-}
-li{
-    font-family: 'Kanit', sans-serif;
-    text-decoration: none;
-}
-.font1{
-    font-family: 'Bruno Ace SC', cursive;
-    color: #14213d;
-}
-
-.html:hover{
-    font-family: 'Kanit', sans-serif;
-    text-decoration: wavy;
-    color: #FF2E00;
-}
-.css:hover{
-    color: #004e98;
-    font-family: 'Kanit', sans-serif;
-}
-.js:hover{
-    color:#ffea00 ;
-    font-family: 'Kanit', sans-serif;
-}
-.php:hover{
-    color: #4D588E;
-    text-decoration: solid;
+    position: relative;
+    left: 15rem;
+    height: 100vh;
+    width: 60vw;
+    background-color: rgba(42, 8, 73, 0.445);
 }
 
